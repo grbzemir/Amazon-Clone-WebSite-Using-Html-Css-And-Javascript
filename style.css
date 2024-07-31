@@ -170,3 +170,113 @@ i {
     padding-top: 10px;
     cursor: pointer;
 }
+
+.sign {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 6px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.sign span:first-child {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.sign span {
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+}
+
+.flex .account span {
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.fa-shopping-cart {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    /* `p` elementinin konumlandırılacağı bağlamı sağlar */
+}
+
+.card {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cart {
+    align-items: center;
+    /* Merkezi hizalamak için */
+    position: relative;
+    /* İçindeki `p` elementinin konumlandırılabilmesi için */
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.cart p {
+    position: absolute;
+    font-weight: bolder;
+    color: #131a22;
+    top: -5px;
+    /* `p` elementinin yukarıda yerleşmesi için */
+    right: -5px;
+    /* `p` elementinin sağda yerleşmesi için */
+    background-color: white;
+    /* Sayının arka planını beyaz yaparak okunabilirliği artırır */
+    padding: 2px 6px;
+    /* İç boşluk eklemek için */
+    border-radius: 50%;
+    /* Sayıyı daire içine almak için */
+    z-index: 1;
+    /* Diğer elemanların üstünde görünmesini sağlar */
+    font-size: 12px;
+    /* Sayının boyutunu ayarlamak için */
+}
+
+.cart:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.logo img:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+
+}
+
+.map:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.lang:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.sign:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.lang:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+
+}
+
+.input .fa-search:hover {
+    background-color: #f5b041;
+}
+
+.input div:hover {
+    background-color: rgb(236, 234, 234);
+    color: black;
+}
