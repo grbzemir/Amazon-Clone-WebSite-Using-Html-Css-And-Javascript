@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    background-color: #eaeded;
+    box-sizing: border-box;
+}
+
+.first {
+    width: 100%;
+    height: 70px;
+    background-color: #131a22;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first img {
+    width: 130px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+}
+
+.first {
+
+    display: Flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex {
+    display: Flex;
+    justify-content: center;
+
+}
+
+.flex span,
+i {
+    color: White;
+
+}
+
+.logo {
+    flex: 0.18;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+.map {
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.map i {
+    margin-top: 17px;
+    padding-left: 5px;
+    font-size: 17px;
+}
+
+.map div {
+    padding: 5px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+
+}
+
+.map div span:first-child {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.map div span {
+    font-weight: bold;
+}
+
+.right {
+    justify-content: space-between;
+    flex: 0.29;
+    margin-right: 10px;
+    align-items: center;
+
+}
+
+.input {
+    width: 100%;
+    background-color: white;
+    flex: 0.53;
+    border-radius: 5px;
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.input input {
+    outline: none;
+    width: 80%;
+    font-size: 16px;
+    padding: 10px 2px;
+    border: none;
+}
+
+.input .fa-search {
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #febd69;
+    border-radius: 0 5px 5px 0;
+}
+
+.input div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid gray;
+    background-color: rgb(236, 234, 234);
+    padding: 6px 0;
+
+}
+
+.input div span {
+    border-radius: 5px 0 0 5px;
+    color: rgb(51, 51, 51);
+    padding: 6px 5px;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+
+.input .fa-caret-down {
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+.lang i {
+    padding: 0;
+    margin: 0;
+    color: gray;
+
+}
+
+.lang {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid transparent;
+    border-radius: 3px;
+
+}
+
+.right img {
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    margin: 0;
+    padding-top: 10px;
+    cursor: pointer;
+}
