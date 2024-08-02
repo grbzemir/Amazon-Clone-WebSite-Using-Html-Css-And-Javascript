@@ -104,12 +104,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
-
-
-
-
 */
-
 
 document.addEventListener('DOMContentLoaded', function () {
     const leftbtn = document.querySelector(".l-btn");
@@ -185,8 +180,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const sign = document.querySelector('.ac');
     const tri = document.querySelector('.triangle');
     const signin = document.querySelector('.hdn-sign');
-
-
 
 
     sign.addEventListener('click', () => {
